@@ -29,4 +29,4 @@ while auction_ongoing:
         auction_ongoing = False
         identify_top_bidder(auction_bids)
     elif more_bidders.lower() == 'yes':
-        clear()  # Clears the console screen
+        clear() 
